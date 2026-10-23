@@ -53,15 +53,32 @@ Create a shared folder that only `kearl` can open, and deliver it to her as a ma
 
 8. **Test.** Signed in as `kearl` on the client, ran `gpupdate /force`, and confirmed `F:` appeared.
 
+<img width="600" height="458" alt="f-drive" src="https://github.com/user-attachments/assets/5b90e092-bc1d-40d0-924e-0c9d67b8aaaa" />
+
+
+9. **Test** to see if the **Administrator** has access to the same folder when you sign in.
+
+<img width="600" height="449" alt="can-admin-see-f-drive" src="https://github.com/user-attachments/assets/9af41f73-0a4a-403a-a1bb-67f8c75510f9" />
+
+
+
 ## Result
 - `kearl` sees `Finance (\\AM-DC-01) (F:)` under Network locations.
 - The admin account does not get the drive map, since it is not in the Financial OU.
 
+## Security
+
+- When deleting an OU make sure to move users out or else everything in the OU will be deleted
+- In a real environment, I would grant access to a security group (e.g. `Finance-Users`) instead of an individual user.
+- Naming conventions for OU, Share Name, GPO object should be unique or give modifiers example Finance (Keep), Financial (Users)
+
 ## What I Learned
-- An OU only holds AD objects (users, computers, groups). It cannot hold or protect a folder.
+
+- AN Organizational Unit holds Active Directory objects but it cannot hold a folder. 
 - Folder access comes from **NTFS and share permissions**, not from the OU or GPO.
 - A user GPO only applies to users inside the OU it is linked to.
 - Drive Maps under Group Policy Preferences deliver the shortcut. They do not grant access.
 - Removing permissions before adding Administrators back can cause the "failed to enumerate objects in container" error. Fix it by taking ownership and adding Administrators first.
 - A GPO's name is just a label. Linking is what makes it apply.
-- In a real environment, I would grant access to a security group (e.g. `Finance-Users`) instead of an individual user.
+
+
