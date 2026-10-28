@@ -49,12 +49,17 @@ Create a shared folder that only `kearl` can open, and deliver it to her as a ma
 <img width="600" height="447" alt="map-drive" src="https://github.com/user-attachments/assets/c5cc251d-1983-4baa-939a-48372e834f57" />
 
 
-### 8. **Test.** Signed in as `kearl` on the client, ran `gpupdate /force`, and confirmed `F:` appeared.
+### 8. Sign is as user
 
 <img width="600" height="458" alt="f-drive" src="https://github.com/user-attachments/assets/5b90e092-bc1d-40d0-924e-0c9d67b8aaaa" />
 
 
-### 9. **Test** to see if the **Administrator** has access to the same folder when you sign in.
+### 9. Ran `gpupdate /force`, and confirmed `F:` appeared.
+
+<img width="600" height="458" alt="f-drive" src="https://github.com/user-attachments/assets/28de5194-f77a-4ddf-9f15-0be7fb433af4" />
+
+
+### 10. **Test** to see if the **Administrator** has access to the same folder when you sign in.
 
 `Administrator` cannot see the file as it is only available to the user `kearl`
 
