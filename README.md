@@ -1,5 +1,3 @@
-# Creating-an-OU-and-Having-A-Specific-User-Being-to-Access-it
-
 # Group Policy Lab: Restricted Finance Share
 
 ## Summary
