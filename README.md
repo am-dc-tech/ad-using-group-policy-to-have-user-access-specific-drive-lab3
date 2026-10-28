@@ -41,7 +41,7 @@ Create a shared folder that only `kearl` can open, and deliver it to her as a ma
 
 ### 6. **Create the GPO.** In Group Policy Management, right-clicked the Financial OU > *Create a GPO in this domain, and Link it here*, named it `Financial Object`.
 
-<img width="500" height="375" alt="Link-to-FInancial-OU" src="https://github.com/user-attachments/assets/0b1c35c8-6c51-4e37-9ea1-05f0e03a135a" />
+<img width="752" height="607" alt="Financial-Object" src="https://github.com/user-attachments/assets/5b953a62-b63f-4bc5-ac61-5858be5f73b3" />
 
 
 ### 7. **Add the drive map.** Edited the GPO: *User Configuration > Preferences > Windows Settings > Drive Maps > New > Mapped Drive*. Action: Create, Location: `\\AM-DC-01\Finance`, Drive letter: `F:`.
