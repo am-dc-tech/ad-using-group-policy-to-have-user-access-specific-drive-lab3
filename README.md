@@ -1,7 +1,7 @@
 # Group Policy Lab: Restricted Finance Share
 
 ## Summary
-Built a network share that only one user (`kearl`) can access, and used a Group Policy Object (GPO) to automatically map it as drive `F:` at sign-in. Folder permissions control access. The OU and GPO control who receives the drive map.
+Built a network share that only one user (`kearl`) can access, and used a Group Policy Object (GPO) to automatically map it as drive `F:` at sign-in. Folder permissions control which specific user can access it and see it in their `C:` drive.
 
 ## Environment
 - **Domain:** AMTech.local
