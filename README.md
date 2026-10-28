@@ -24,7 +24,7 @@ Create a shared folder that only `kearl` can open, and deliver it to her as a ma
 
 <img width="195" height="403" alt="Screenshot 2026-10-23 135102" src="https://github.com/user-attachments/assets/6f6d7832-c2dd-4bbb-b9fe-cfd66e331d40" />
 
-### 3. **Move the user.** Moved Kenna Earl (`kearl`) into the Financial OU.
+### 3. **Move the user.** [(Moved Kenna Earl (`kearl`) into the Financial OU)].
 
 <img width="500" height="342" alt="Move-Kenna-OU" src="https://github.com/user-attachments/assets/3b40ee90-d86b-4a4a-8709-7ea185b96481" />
 
