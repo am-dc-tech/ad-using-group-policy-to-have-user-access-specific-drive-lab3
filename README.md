@@ -56,6 +56,8 @@ Create a shared folder that only `kearl` can open, and deliver it to her as a ma
 
 ### 9. **Test** to see if the **Administrator** has access to the same folder when you sign in.
 
+`Administrator` cannot see the file as it is only available to the user `kearl`
+
 <img width="600" height="449" alt="can-admin-see-f-drive" src="https://github.com/user-attachments/assets/9af41f73-0a4a-403a-a1bb-67f8c75510f9" />
 
 
