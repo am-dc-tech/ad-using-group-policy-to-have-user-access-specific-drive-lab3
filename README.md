@@ -16,7 +16,7 @@ Create a shared folder that only `kearl` can open, and deliver it to her as a ma
 
 ## Steps
 
-### 1. As Administrator, open up **Server Manager** and click **Tools** -> **Group Policy Management**  
+### 1. As `Administrator`, open up **Server Manager** and click **Tools** -> **Group Policy Management**  
 <img width="500" height="339" alt="ad-GPM" src="https://github.com/user-attachments/assets/40c92b3e-67cd-46f5-afa2-3b102281c23f" />
 
 
