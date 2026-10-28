@@ -51,7 +51,7 @@ Create a shared folder that only `kearl` can open, and deliver it to her as a ma
 
 ### 8. Sign is as user
 
-<img width="600" height="458" alt="f-drive" src="https://github.com/user-attachments/assets/5b90e092-bc1d-40d0-924e-0c9d67b8aaaa" />
+<img width="287" height="54" alt="kearl-login" src="https://github.com/user-attachments/assets/90f90d13-20ec-4539-9502-7412be205ff5" />
 
 
 ### 9. Ran `gpupdate /force`, and confirmed `F:` appeared.
