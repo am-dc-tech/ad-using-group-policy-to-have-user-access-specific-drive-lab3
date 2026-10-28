@@ -19,7 +19,7 @@ Create a shared folder that only `kearl` can open, and deliver it to her as a ma
 <img width="500" height="339" alt="ad-GPM" src="https://github.com/user-attachments/assets/40c92b3e-67cd-46f5-afa2-3b102281c23f" />
 
 
-2. **Create the OU.** In Active Directory Users and Computers, created an OU named `Financial` under AMTech.local
+2. **Create the OU.** In Active Directory Users and Computers (Created an OU named `Financial` under AMTech.local)
 
 <img width="195" height="403" alt="Screenshot 2026-10-23 135102" src="https://github.com/user-attachments/assets/6f6d7832-c2dd-4bbb-b9fe-cfd66e331d40" />
 
