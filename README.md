@@ -6,17 +6,16 @@ Built a network share that only one user (`kearl`) can access, and used a Group 
 ## Environment
 - **Domain:** AMTech.local
 - **Domain controller / file server:** AM-DC-01
-- **Client:** Windows 11, domain-joined
 - **Folder:** `C:\CompanyData\Finance` (shared as `Finance`)
 - **User:** Kenna Earl (`kearl`)
-- **OU:** Financial
-- **GPO:** Financial Object
+- **Organizational Unit:** Financial
+- **Group Policy Object:** Financial Object
 
 ## Lab Goal
 Create a shared folder that only `kearl` can open, and deliver it to her as a mapped drive using Group Policy.
 
 ## Steps
-1. Open up **Sever Manager** and click **Tool** -> **Group Policy Management**  
+1. As Administrator, open up **Server Manager** and click **Tools** -> **Group Policy Management**  
 <img width="500" height="339" alt="ad-GPM" src="https://github.com/user-attachments/assets/40c92b3e-67cd-46f5-afa2-3b102281c23f" />
 
 
